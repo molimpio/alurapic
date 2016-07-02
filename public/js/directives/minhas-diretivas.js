@@ -2,7 +2,7 @@ angular.module('minhasDiretivas', [])
     .directive('meuPainel', function () {
 
         var ddo = {};
-        ddo.restric = "AE";
+        ddo.restrict = "AE";
         ddo.scope = {
             titulo: '@titulo'
         };
