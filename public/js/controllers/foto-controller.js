@@ -15,7 +15,5 @@ angular.module('alurapic').controller('FotoController', function ($scope, $http)
                     console.warn(erro);
                 });
         }
-
     };
-
 });
